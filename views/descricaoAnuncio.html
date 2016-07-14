@@ -1,0 +1,38 @@
+﻿<div class="row" align="center">
+    <div id="card-image">
+        <img class="materialboxed" width="300" src="{{imgMime}}" />
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col s12">
+        <div class="card-panel center">
+            <span id="timer" class="blue-text text-darken-2"></span>
+        </div>
+        <div id="descricaoOferta">
+            <div class="row">
+                <div class="col s12 m7">
+                    <blockquote> Disponível em: {{NomeFantasia}}</blockquote>
+                    <blockquote> Produto: {{Produto}}</blockquote>
+                    <blockquote> Preço: {{Valor}}</blockquote>
+                    <blockquote> Início da Promoção: {{DataInicio}}</blockquote>
+                    <blockquote> Disponível até: {{DataFim}}</blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="center row">
+    <button type="button" class="waves-effect waves-light btn" data-controller="qrCodeAnuncio" data-idcompra="{{idCompra}}">
+        Eu quero
+    </button>
+</div>
+
+<!--Caso decidirmos usar o qrCode nessa tela, podemos usar ele nessa div aqui-->
+<!--<div class="row" align="center">
+    <div class="input-field col s12">
+        <div id="qrcode">
+            qrCode aqui
+        </div>
+    </div>
+</div>-->
